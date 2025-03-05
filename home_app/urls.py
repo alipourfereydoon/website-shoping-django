@@ -5,6 +5,8 @@ from . import views
 #     path('',views.home)
 # ]
 
+app_name='home_app'
+
 urlpatterns=[
-    path('',views.home)
+    path('',views.home,name='main')
 ]
