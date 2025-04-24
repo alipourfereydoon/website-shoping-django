@@ -2,18 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34d0bfdc-522d-4b43-abd1-8effa6f725e4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/article_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context_prosesor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context_prosesor/context_prosesor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/footer_refrences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/head_refrences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_project/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home_app/templates/home_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home_app/templates/home_app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/articles/1_11423781748.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,19 +58,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/vendor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project-django\blog_project\blog\templates\blog" />
       <recent name="E:\project-django\blog_project\assets\vendor" />
       <recent name="E:\project-django\blog_project\assets\js" />
       <recent name="E:\project-django\blog_project\assets\images" />
       <recent name="E:\project-django\blog_project\assets\fonts" />
-      <recent name="E:\project-django\blog_project\assets\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -92,6 +122,38 @@
       <workItem from="1741176765139" duration="8872000" />
       <workItem from="1741327157462" duration="9256000" />
       <workItem from="1741461535715" duration="1757000" />
+      <workItem from="1741629771976" duration="5482000" />
+      <workItem from="1741960548140" duration="624000" />
+      <workItem from="1742004423472" duration="2064000" />
+      <workItem from="1742141025927" duration="2623000" />
+      <workItem from="1742755169254" duration="342000" />
+      <workItem from="1743783662123" duration="113000" />
+      <workItem from="1743965317115" duration="685000" />
+      <workItem from="1743966570728" duration="1720000" />
+      <workItem from="1743969071851" duration="253000" />
+      <workItem from="1743969465221" duration="357000" />
+      <workItem from="1744044554618" duration="1434000" />
+      <workItem from="1744555274946" duration="1222000" />
+      <workItem from="1744557005034" duration="41000" />
+      <workItem from="1744557109910" duration="2090000" />
+      <workItem from="1744559338614" duration="244000" />
+      <workItem from="1744559699253" duration="315000" />
+      <workItem from="1744560069493" duration="124000" />
+      <workItem from="1744560272703" duration="72000" />
+      <workItem from="1744560874502" duration="2209000" />
+      <workItem from="1744608461558" duration="1830000" />
+      <workItem from="1744646462331" duration="378000" />
+      <workItem from="1744647051037" duration="1201000" />
+      <workItem from="1744682162429" duration="256000" />
+      <workItem from="1744727025710" duration="149000" />
+      <workItem from="1744727365616" duration="1662000" />
+      <workItem from="1744729812200" duration="3518000" />
+      <workItem from="1745088720716" duration="6035000" />
+      <workItem from="1745180000209" duration="309000" />
+      <workItem from="1745180828424" duration="342000" />
+      <workItem from="1745255776327" duration="3466000" />
+      <workItem from="1745349616509" duration="5000" />
+      <workItem from="1745478844322" duration="131000" />
     </task>
     <servers />
   </component>
@@ -108,5 +170,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/blog/urls.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
