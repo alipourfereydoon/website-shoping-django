@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-neln%3aksvlc@thjhayixv#k_jrka_9ko86%xi*2nv!_y^9@qy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'home_app.apps.HomeAppConfig',
     'account.apps.AccountConfig',
     'blog.apps.BlogConfig',
-    'django_cleanup.apps.CleanupConfig'
+    'django_cleanup.apps.CleanupConfig',
+     'django_social_share'
 ]
 
 MIDDLEWARE = [
