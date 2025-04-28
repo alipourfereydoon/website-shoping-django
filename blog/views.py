@@ -15,4 +15,13 @@ def article_list(request):
     object_list=paginator.get_page(page_number)
     return render(request ,'blog/article_list.html',context={'articles':object_list})
 
+def search(request):
+    q=request.GET.get('q')
+    articles=article.objects.filter(title__contains=q)
+    page_number=request.GET.get('page')
+    paginator=Paginator(articles,1)
+    object_list=paginator.get_page(page_number)
+    return render(request,'blog/article_list.html', {"articles":object_list})
+
+
 
